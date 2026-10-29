@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Gracia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="#accueil" class="logo">Gracia<span>🌸</span></a>
+
+        <nav id="menu">
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
+    </header>
+
+    <main>
+        <section class="accueil" id="accueil">
+            <div class="fleur fleur1">🌸</div>
+            <div class="fleur fleur2">🌷</div>
+
+            <div class="presentation">
+                <p class="salutation">BIENVENUE DANS MON UNIVERS 🌷</p>
+                <h1>Bonjour, je suis <span>Gracia</span></h1>
+                <h2>Future ingénieure en <span>Intelligence Artificielle</span></h2>
+                <p class="description">
+                    Étudiante en première année d'Intelligence Artificielle
+                    et Big Data, je découvre le monde du numérique,
+                    de la programmation et des nouvelles technologies.
+                </p>
+
+                <div class="boutons">
+                    <a href="#apropos" class="btn">Découvrir mon profil</a>
+                    <a href="#contact" class="btn btn-clair">Me contacter</a>
+                </div>
+            </div>
+
+            <div class="photo">
+                <div class="cadre-photo">
+                    <div class="fleurs-photo">🌸 🌷 🌸</div>
+                    <div class="initiale">G</div>
+                    <h3>Gracia</h3>
+                    <p>Future ingénieure en IA</p>
+                    <div class="fleurs-photo">🌷 🌸 🌷</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="apropos">
+            <p class="petit-titre">APPRENONS À NOUS CONNAÎTRE</p>
+            <h2>À propos de <span>moi</span></h2>
+            <div class="carte">
+                <p>
+                    Je m'appelle Gracia et je suis étudiante en première
+                    année d'Intelligence Artificielle et Big Data.
+                    Je m'intéresse à la programmation, à l'intelligence
+                    artificielle et à la science des données.
+                </p>
+                <p>
+                    Mon objectif est de développer mes compétences,
+                    de réaliser des projets innovants et de devenir
+                    une ingénieure compétente dans le domaine du numérique.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="competences">
+            <p class="petit-titre">MON APPRENTISSAGE</p>
+            <h2>Mes <span>compétences</span></h2>
+
+            <div class="grille">
+                <article class="competence">
+                    <div class="icone">💻</div>
+                    <h3>HTML</h3>
+                    <p>Créer la structure des pages web.</p>
+                    <span class="niveau">En apprentissage</span>
+                </article>
+
+                <article class="competence">
+                    <div class="icone">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Personnaliser le design des sites web.</p>
+                    <span class="niveau">En apprentissage</span>
+                </article>
+
+                <article class="competence">
+                    <div class="icone">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Découvrir les interactions sur les sites web.</p>
+                    <span class="niveau">Débutante</span>
+                </article>
+
+                <article class="competence">
+                    <div class="icone">🤖</div>
+                    <h3>Intelligence artificielle</h3>
+                    <p>Découvrir les technologies intelligentes.</p>
+                    <span class="niveau">En découverte</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projets">
+            <p class="petit-titre">MES PREMIÈRES RÉALISATIONS</p>
+            <h2>Mes <span>projets</span></h2>
+
+            <div class="grille">
+                <article class="projet">
+                    <div class="projet-icone">🌷</div>
+                    <h3>Mon portfolio</h3>
+                    <p>Un site personnel pour présenter mon parcours et mes objectifs.</p>
+                    <span class="etiquette">HTML · CSS · JavaScript</span>
+                </article>
+
+                <article class="projet">
+                    <div class="projet-icone">🌐</div>
+                    <h3>Ma première page web</h3>
+                    <p>Une page web pour pratiquer les bases du développement.</p>
+                    <span class="etiquette">HTML · CSS</span>
+                </article>
+
+                <article class="projet">
+                    <div class="projet-icone">✨</div>
+                    <h3>Mes futurs projets</h3>
+                    <p>Des idées créatives autour du numérique et de l'IA.</p>
+                    <span class="etiquette">En préparation</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <p class="petit-titre">RESTONS EN CONTACT</p>
+            <h2>Parlons de <span>vos idées</span> 🌸</h2>
+            <p>Un projet, une idée ou une opportunité ? Je serais ravie d'échanger avec vous.</p>
+
+            <form id="contactForm">
+                <input type="text" id="nom" placeholder="Ton nom" required>
+                <input type="email" id="email" placeholder="Ton adresse e-mail" required>
+                <textarea id="message" placeholder="Ton message..." rows="5" required></textarea>
+                <button type="submit" class="btn">Préparer mon message 💌</button>
+                <p id="confirmation" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fait avec 💗 par Gracia | Portfolio 2026</p>
+        <a href="#accueil">Retour en haut ↑</a>
+    </footer>
+
+</body>
+</html>
